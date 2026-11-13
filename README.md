@@ -96,6 +96,8 @@ PicLaundry 默认使用 `%LOCALAPPDATA%\PicLaundry`。从 Hiline 或 Hangline �
 
 晾衣绳交互取材于 Alejandro Buján 的 [Tendedero](https://github.com/alejandrobujan/tendedero)。
 
+感谢 Codex 在 PicLaundry 开发和发布过程中提供的帮助。
+
 ## 许可
 
 [MIT](LICENSE)。原作者署名及 Tendedero 的名称和图标说明见许可证。
