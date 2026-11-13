@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>PicLaundry.ico</ApplicationIcon>
+    <!-- WPF creates the first HWND, so declare DPI awareness before either UI stack starts. -->
+    <NoWarn>$(NoWarn);WFAC010</NoWarn>
+    <NuGetAudit>false</NuGetAudit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Verification/**/*.cs;dist/**/*.cs" />
+    <EmbeddedResource Include="PicLaundry-Tray.ico" LogicalName="PicLaundry.TrayIcon" />
+  </ItemGroup>
+</Project>

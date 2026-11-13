@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <StartupObject>PicLaundry.Verification</StartupObject>
+    <ApplicationManifest>../app.manifest</ApplicationManifest>
+    <NoWarn>$(NoWarn);WFAC010</NoWarn>
+    <NuGetAudit>false</NuGetAudit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../*.cs" />
+    <EmbeddedResource Include="../PicLaundry-Tray.ico" LogicalName="PicLaundry.TrayIcon" />
+  </ItemGroup>
+</Project>
