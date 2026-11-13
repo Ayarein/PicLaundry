@@ -1,8 +1,29 @@
-# PicLaundry
+<p align="center">
+  <img src="./PicLaundry.png" alt="PicLaundry 应用图标" width="128" height="128">
+</p>
 
-[下载最新版](../../releases/latest) · [问题反馈](../../issues)
+<h1 align="center">PicLaundry</h1>
 
-PicLaundry 是一个 Windows 11 图片收集工具。截图保存后会挂到屏幕顶部的晾衣绳上，复制到剪贴板的图片也可以自动收集。需要用图时，打开晾衣绳，点一下复制原图，或直接拖到聊天窗口、文档等支持图片拖放的应用里。
+<p align="center">把截图和剪贴板图片挂在 Windows 11 屏幕顶端，随手复制、预览或拖入其他应用。</p>
+
+<p align="center">
+  <a href="#功能亮点">功能亮点</a> ·
+  <a href="#隐私">隐私</a> ·
+  <a href="#系统要求">系统要求</a> ·
+  <a href="#安装">安装</a> ·
+  <a href="#使用提示">使用提示</a> ·
+  <a href="#构建和运行">构建和运行</a> ·
+  <a href="#验收">验收</a> ·
+  <a href="#项目结构">项目结构</a> ·
+  <a href="#旧版数据">旧版数据</a> ·
+  <a href="#致谢">致谢</a> ·
+  <a href="#许可">许可</a>
+</p>
+
+<p align="center">
+  <a href="../../releases/latest">下载最新版</a> ·
+  <a href="../../issues">问题反馈</a>
+</p>
 
 ## 功能亮点
 
